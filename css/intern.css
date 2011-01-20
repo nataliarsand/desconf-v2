@@ -1,0 +1,45 @@
+.videoTitle {
+	display: block;
+	margin: 20px 0;
+	color: #2C2C2C;
+	font-size: 2.3em;
+	font-family: 'Coolvetica', Trebuchet;
+}
+
+.theTalk, .theAuthor {
+	margin-bottom: 20px;
+}
+
+.theAuthor img {
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+.theAuthor h5 {
+	color: #BAFF34;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.theAuthor li {
+	float: left;
+	margin: 5px;
+}
+
+.theAuthor li a {
+	padding: 3px 5px;
+	-moz-transition-property: none;
+  -webkit-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -moz-transition-duration: 0;
+  -webkit-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+.theAuthor li a:hover {
+	-webkit-border-radius: 15px;
+	background: #BBB;
+	color: #333 !important;
+}
